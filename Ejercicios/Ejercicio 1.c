@@ -4,11 +4,11 @@
 
 int main() {
   int a, b, c;
-  printf("Ingrese un numero \n");
+  printf("Ingrese un numero: \n");
   scanf("%d", &a);
-  printf("Ingrese un numero \n");
+  printf("Ingrese otro numero: \n");
   scanf("%d", &b);
   c = a + b;
-  printf("La suma de a y b es: %d \n", c);
+  printf("La suma es: %d \n", c);
   return 1;
 }
